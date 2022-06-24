@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+ul,a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+li{
+
+    list-style: none;
+}
+
+.container{
+
+    width: 1170px;
+    height: auto;
+    margin: auto;
+}
+
+.row{
+
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.justify{
+
+    align-items:center;
+}
+
+
+#bg{
+    width:100%;
+    height: 700px;
+}
+
+#bg .logo{
+
+
+    width: 15%;
+    color:#fff;
+    padding: 20px 39px 10px 10px;
+    text-align:center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+#bg .menu{
+
+    width:60%;
+    text-align:center;
+    padding-left: 73px;
+}
+
+#bg .menu li {
+
+    display: inline-block;
+}
+
+#bg .menu a{
+
+
+    padding: 0 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+
+
+}
+
+#bg .serch{
+
+    width:25%;
+    text-align:right;
+    color: #fff;
+}
+
+#bg .serch .star{
+
+    padding-right:90px;
+}
+
+
+
+#bg .middle{
+
+    width: 100%;
+    text-align: center;
+    margin-top: 230px;
+    color: #fff;
+}
+
+#bg .middle h2{
+
+    font-size: 40px;
+    font-weight: 800;
+    padding:0 349px 0 360px;
+}
+
+#bg .middle p{
+
+    font-size: 16px;
+    padding:0 303px 0 275px;
+}
+
+
+#bg .middle button{
+
+width: 100px;
+height:40px;
+line-height:40px;
+
+background: rgb(139, 186, 243);
+text-align: center;
+display:inline-block;
+border: 0;
+margin-top:15px;
+border-radius: 6px;
+color: #fff;
+
+
+}
+
+
+#our{
+
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+#our h2{
+
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+#our .card{
+
+    width:32%;
+    margin-top: 30px;
+    background: #F9F9F9;
+    text-align:left;
+    padding: 10px 0 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#our .card img{
+
+    width: 24%;
+    padding:0 20px;
+}
+
+
+
+#our .card h5{
+
+    font-size: 24px;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+
+#our .card p{
+
+    font-size: 16px;
+    padding:20px;
+}
+
+
+
+#best{
+
+    background: #D9D9D3;
+}
+
+
+#best .heading{
+
+    text-align: center;
+    
+}
+
+#best .heading h2{
+
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;
+    padding: 10px 466px 10px 532px;
+}
+
+#best .heading p{
+
+    font-size: 16px;
+    padding: 0 369px;
+    line-height: 24px;
+}
+
+
+#best .model{
+
+    width:100%;
+    height: 160px;
+    text-align: center;
+    background-color: #fff;
+    margin-top:70px;
+    margin-bottom:50px;
+    border-radius: 6px;
+    padding: 0 28px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#best .model img{
+
+    padding: 10px 0;
+}
+
+
+#best .model h5{
+
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+#best .model p{
+
+    font-size: 20px;
+    padding: 0 30px;
+}
+
+#best .move{
+
+    width: 25%;
+    padding: 10px;
+}
+
+
+
+
+#popular{
+
+    padding: 50px 0;
+    height:580px;
+    
+    
+}
+
+#popular .heading{
+
+    text-align: center;
+    margin-top: 15px;
+}
+
+#popular .heading{
+
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+#popular .map{
+
+    width:50%;
+}
+
+#popular .map img{
+
+    width:120%;
+    height:50%;
+}
+
+
+#popular .table_card{
+
+    width: 50%;
+    padding: 0 152px;
+    
+}
+
+#popular .table_card table td img{
+
+    width: 40%;
+    margin-top:34px;
+    margin-left:37px;
+    margin-right:120px;
+}
+
+#popular .table_card table td h5{
+
+    font-size: 20px;
+    font-weight: 600;
+    margin-right:20px;
+    margin-left:-75px;
+}
+
+#popular .table_card table td p{
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#popular .table_card table td span{
+
+    margin-left:20px;
+}
+
+
+#popular .table_card table{
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+#best{
+
+    width: 100%;
+    padding: 40px;
+    background-color: #e5e5e5b2;
+}
+
+
+#best .heading{
+
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+#best .buttons{
+
+    margin-top: 40px;
+    text-align:center;
+}
+
+#best .buttons ul li a{
+
+    width: 120px;
+    height:40px;
+    line-height: 40px;
+    display:inline-block;
+    background-color: #54a52f;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0 22px;
+    color: #fff;
+}
+
+#best .buttons ul li{
+
+    display: inline-block;
+    padding:0 15px;
+}
+
+
+#best .travel{
+
+    width: 100%;
+    background-color: #fff;
+    margin-top:40px;
+    box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+
+}
+
+#best .travel img{
+
+    width:100%;
+}
+
+#best .travel table a{
+
+    display: inline-block;
+    padding: 0 34px;
+    color:#000;
+}
+
+#best .travel table P{
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+#best .copy{
+
+    width: 33.33%;
+    padding: 0 10px;
+}
+
+#best .more{
+
+    margin-top: 55px;
+    text-align:center;
+}
+
+#best .more a{
+
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    background-color: rgb(48, 245, 228);
+    color:#fff;
+    border-radius: 6px;
+}
+
+
+
+#trip .heading {
+
+    margin-top: 40px;
+    text-align:center;
+}
+
+#trip .easy{
+
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+#trip .easy table h5{
+
+    font-size: 16px;
+    font-weight: 800;
+    color: #000;
+    padding-left: 10px;
+}
+
+
+#trip .easy table p{
+
+    font-size: 16px;
+    font-weight: 600;
+    padding-left:10px;
+    padding-right: 117px;
+    line-height: 23px;
+}
+
+#trip .easy table tr{
+
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+
+
+#trip .fast{
+
+    margin-top: 40px;
+    width: 50%;
+    background-color: #fff;
+}
+
+#trip .fast table tr td h5{
+
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#trip .fast table tr td p{
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#say{
+
+    background-color: #E5E5E5;
+}
+
+
+#say .heading{
+
+    margin-top: 40px;
+    text-align:center;
+    padding-top:20px;
+}
+
+#say .heading h3{
+
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+#say .photo{
+
+    padding: 20px 20px 20px 72px;
+}
+
+
+footer{
+
+    text-align:center;
+}
+
+
+footer .cut{
+
+    width: 70%;
+    background-color: rgba(125, 258, 304,2);
+    margin-top: 60px;
+    text-align:center;
+    height: 350px;
+    margin-left:189px;
+    margin-bottom:20px;
+    border-radius: 139px 28px 28px 28px;
+    position: relative;
+
+}
+
+footer .cut h4{
+
+    font-size: 25px;
+    font-weight: 600;
+    color: #5E6282;
+    padding: 101px 72px;
+
+}
+
+footer .cut input{
+
+    width:170px;
+    height: 30px;
+    
+}
+
+footer .cut a{
+
+    width: 120px;
+    height: 29px;
+    line-height: 28px;
+    display: inline-block;
+    background-color: #00A651;
+    color: #fff;
+    border-radius: 6px;
+}
+
+footer .cut .icon{
+
+    width:102%;
+    position:absolute;
+    margin-top: -323px;
+    text-align:right;
+}
+
+footer .cut .icon img{
+
+    width: 50px;
+
+}
+
+
+footer .fcard{
+
+    width: 23%;
+    margin-top:134px;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
+footer .fcard h4{
+
+    font-size: 24px;
+    font-weight: 800;
+    padding:0 60px;
+}
+
+footer .fcard p{
+
+    color: #5E6282;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+footer .company{
+
+    width: 18%;
+    margin-top:134px;
+    margin-bottom:30px;
+}
+
+footer .company h4{
+
+    font-size: 21px;
+    font-weight: 800;
+    padding-bottom: 7px;
+}
+
+footer .company ul li a{
+
+    font-size: 18px;
+    line-height:23px;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+
+footer .last{
+
+    width: 23%;
+    margin-top:134px;
+    margin-bottom: 30px;
+}
+
+footer .last table{
+
+    width: 100%;
+}
+
+footer .last tr{
+
+    display:inline-block;
+}
+
+footer .last ul li a{
+
+    display:inline-block;
+}
+
+footer .last ul li a img{
+
+    width: 100%;
+}
+
+
+footer .all{
+
+    padding: 30px 0 20px 0;
+}
